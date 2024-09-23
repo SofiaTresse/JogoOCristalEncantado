@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Perguntas e Respostas</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div id="containerQuiz">
+    <h1><strong>Quiz de Perguntas e Respostas</strong></h1>
+    <img src="./images/deet.jpg" alt="Imagem do Quiz" class="img">
+
+<form id="quizForm">
+    <!--Pergunta 1-->
+<div class="pergunta">
+    <h3>1. Quem são os protagonistas do filme "O Cristal Encantado"(1982)?</h3>
+<input type="radio" name="pergunta1" value="0">Luke e Leia<br>
+<input type="radio" name="pergunta1" value="1">Jen e Kira<br>
+<input type="radio" name="pergunta1" value="0">Harry e Hermione<br>
+<input type="radio" name="pergunta1" value="0">Frodo e Sam<br>
+</div>
+
+   <!--Pergunta 2-->
+   <div class="pergunta">
+    <h3>2.Na série, qual Gelfling descobre os segredos sombrios dos Skeksis e lidera a resistência?</h3>
+<input type="radio" name="pergunta2" value="0">Jen<br>
+<input type="radio" name="pergunta2" value="1">Rian<br>
+<input type="radio" name="pergunta2" value="0">Kira<br>
+<input type="radio" name="pergunta2" value="0">Brea<br>
+</div>
+
+<!--Pergunta 3-->
+<div class="pergunta">
+    <h3>3.Qual é o nome do planeta onde "O Cristal Encantado" se passa??</h3>
+<input type="radio" name="pergunta3" value="1">Thra<br>
+<input type="radio" name="pergunta3" value="0">Etheria<br>
+<input type="radio" name="pergunta3" value="0">Naboo<br>
+<input type="radio" name="pergunta3" value="0">Pandora<br>
+</div>
+
+<!--Pergunta 4-->
+<div class="pergunta">
+    <h3>4.Na série "O Cristal Encantado: A Era da Resistência", quantos clãs de Gelflings existem?</h3>
+<input type="radio" name="pergunta4" value="0">5<br>
+<input type="radio" name="pergunta4" value="0">3<br>
+<input type="radio" name="pergunta4" value="1">7<br>
+<input type="radio" name="pergunta4" value="0">9<br>
+</div>
+
+<!--Pergunta 5-->
+<div class="pergunta">
+    <h3>5.Qual é a fonte de poder que os Skeksis abusam tanto no filme quanto na série?</h3>
+<input type="radio" name="pergunta5" value="0">A Água da Vida<br>
+<input type="radio" name="pergunta5" value="0">A Força dos Mystics<br>
+<input type="radio" name="pergunta5" value="0">A Luz dos Sóis<br>
+<input type="radio" name="pergunta5" value="1">A Essência dos Gelflings<br>
+</div>
+
+<!--Pergunta 6-->
+<div class="pergunta">
+    <h3>6.De qual clã líder Gelfling Brea faz parte?</h3>
+<input type="radio" name="pergunta6" value="0">Stonewood<br>
+<input type="radio" name="pergunta6" value="1">Vapra<br>
+<input type="radio" name="pergunta6" value="0">Sifa<br>
+<input type="radio" name="pergunta6" value="0">Grottan<br>
+</div>
+
+<!--Pergunta 7-->
+<div class="pergunta">
+    <h3>7.Qual é o significado da "Canção da Flor de Gelfling", mencionada tanto no filme quanto na série?</h3>
+<input type="radio" name="pergunta7" value="1">Uma antiga profecia sobre a derrota dos Skeksis<br>
+<input type="radio" name="pergunta7" value="0">Uma canção que revela o segredo do Cristal<br>
+<input type="radio" name="pergunta7" value="0">Um ritual de união dos clãs Gelfling<br>
+<input type="radio" name="pergunta7" value="0">Uma lenda sobre a criação de Thra<br>
+</div>
+
+<!--Pergunta 8-->
+<div class="pergunta">
+    <h3>8.Na série, o que acontece com Deet após ela absorver o poder da Corrupção (Darkening)? </h3>
+<input type="radio" name="pergunta8" value="0"> Ela se transforma em um Skeksis<br>
+<input type="radio" name="pergunta8" value="0">Ela perde a memória e sua identidade<br>
+<input type="radio" name="pergunta8" value="1">Ela ganha poderes, mas se torna uma ameaça<br>
+<input type="radio" name="pergunta8" value="0">Ela se une aos Mystics para curar o Cristal<br>
+</div>
+
+<!--Pergunta 9-->
+<div class="pergunta">
+    <h3>9.Qual é a relação entre os Skeksis e os Mystics no universo de "O Cristal Encantado"?</h3>
+<input type="radio" name="pergunta9" value="0">Eles são inimigos jurados<br>
+<input type="radio" name="pergunta9" value="0">Eles pertencem a diferentes planetas<br>
+<input type="radio" name="pergunta9" value="1">Eles são a mesma raça dividida em dois<br>
+<input type="radio" name="pergunta9" value="0"> Eles são aliados<br>
+</div>
+
+<!--Pergunta 10-->
+<div class="pergunta">
+    <h3>10.No filme de 1982, o que acontece com o Cristal Encantado ao final da história?</h3>
+<input type="radio" name="pergunta10" value="0">É destruído<br>
+<input type="radio" name="pergunta10" value="1">É restaurado<br>
+<input type="radio" name="pergunta10" value="0">É roubado pelos Skeksis<br>
+<input type="radio" name="pergunta10" value="0">É levado para outro planeta<br>
+</div>
+
+<button type="button" onclick="verificarRespostas()">Enviar Respostas</button>
+
+</form>
+
+</div>
+<script src="js/script.js"></script>
+    
+</body>
+</html>

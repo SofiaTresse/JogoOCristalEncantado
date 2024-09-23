@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('../images/hehee.png') no-repeat center center fixed;
+    color: #fff; /* Cor do texto branca */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    margin: 0;
+}
+
+#containerQuiz, #containerResultado {
+    background-color: #3e0a6bc0; /* Tom de roxo mais claro para o fundo do container */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+h1, h2 {
+    color: #f3e5f5; /* Cor do título */
+    margin-bottom: 20px;
+}
+
+
+.img {
+    max-width: 100%; 
+    height: auto; 
+    margin: 20px 0; 
+    border-radius: 20px;
+}
+
+
+.pergunta {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+label:hover {
+    background-color: #4a0072; /* Cor de fundo ao passar o mouse */
+}
+
+button {
+    background-color: #7e57c2; /* Cor do botão */
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #6a1b9a; /* Cor do botão ao passar o mouse */
+    transform: scale(1.05); /* Efeito de aumento ao passar o mouse */
+}
+
+button:focus {
+    outline: none;
+}
